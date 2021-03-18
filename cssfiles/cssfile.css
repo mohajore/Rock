@@ -124,7 +124,7 @@ header .header-content{
     left: 0;
     border-color: var(--maincolor);
     border-style: solid;
-    border-width: 0 3px;
+    border-width: 0 3px
     width: 90%;
     height: 108%;
     
@@ -425,6 +425,8 @@ transition:   transform .5s, visiblity.5s,opacity.5s  ;
     color: gray;
     font-size: 15px;
     text-transform: capitalize;
+    display: block;
+    margin: 10px 0 0 0;
 }
 .sprite-icon{
     background-image: url(../images/service-icon.png);
